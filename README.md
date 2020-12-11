@@ -1,5 +1,12 @@
 # Driver-Gaze-Estimation
 Driver Gaze estimation using Convolutional Neural Networks  
+# Steps
+1. Create a google-colab notebook.
+2. Clone this repository
+3. Install all packages specified in requirements.txt
+4. Upload dataset on the notebook
+5. Train and Test the model
+
 # Datasets
 ## LISA Gaze Dataset v0
 Download the complete RGB dataset for driver gaze classification using this [link](https://drive.google.com/file/d/1Ez-pHW0v-5bRdz8NjTLlzWZPT0GS2rYT/view).
@@ -8,6 +15,7 @@ The SqueezeNet gaze classifier can be trained using the following command:
 ```
 python gazenet.py --dataset-root-path=/path/to/lisat_gaze_data_v0/ --version=1_1 --snapshot=./weights/squeezenet1_1_imagenet.pth --random-transforms
 ```
+
 ### Inference (v0 RGB data)
 Inference can be carried out using the command as follows:
 ```
@@ -27,4 +35,4 @@ Inference can be carried out using the command as follows:
 python infer.py --dataset-root-path=/path/to/lisat_gaze_data_v1/ --split=val --version=1_1 --snapshot-dir=/path/to/trained/rgb-model/directory/ --save-viz
 ```
 
-
+Config files, logs, results, snapshots, and visualizations from running the above scripts will be stored in the Driver-Gaze-Estimation/experiments folder by default.
