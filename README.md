@@ -1,5 +1,5 @@
 # Driver-Gaze-Estimation
-Driver Gaze estimation using Convolutional Neural Networks[1][2]  
+Driver Gaze estimation using Convolutional Neural Networks[@1][@2]  
 # Steps
 1. Create a google-colab notebook.
 2. Clone this repository
@@ -38,5 +38,5 @@ python infer.py --dataset-root-path=/path/to/lisat_gaze_data_v1/ --split=val --v
 #### Config files, logs, results, snapshots, and visualizations from running the above scripts will be stored in the "Driver-Gaze-Estimation/experiments" folder by default.
 
 # References
-[1]: http://cvrr.ucsd.edu/publications/2017/IV2017-VoraTrivedi-OnGeneralizingGazeZone.pdf
-[2]: http://cvrr.ucsd.edu/publications/2018/sourabh_gaze_zone.pdf
+[@1]: http://cvrr.ucsd.edu/publications/2017/IV2017-VoraTrivedi-OnGeneralizingGazeZone.pdf
+[@2]: http://cvrr.ucsd.edu/publications/2018/sourabh_gaze_zone.pdf
