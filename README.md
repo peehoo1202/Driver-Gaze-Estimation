@@ -35,4 +35,4 @@ Inference can be carried out using the command as follows:
 python infer.py --dataset-root-path=/path/to/lisat_gaze_data_v1/ --split=val --version=1_1 --snapshot-dir=/path/to/trained/rgb-model/directory/ --save-viz
 ```
 
-Config files, logs, results, snapshots, and visualizations from running the above scripts will be stored in the Driver-Gaze-Estimation/experiments folder by default.
+#### Config files, logs, results, snapshots, and visualizations from running the above scripts will be stored in the "Driver-Gaze-Estimation/experiments" folder by default.
