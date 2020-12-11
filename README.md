@@ -38,5 +38,5 @@ python infer.py --dataset-root-path=/path/to/lisat_gaze_data_v1/ --split=val --v
 #### Config files, logs, results, snapshots, and visualizations from running the above scripts will be stored in the "Driver-Gaze-Estimation/experiments" folder by default.
 
 # References
-[On Generalizing Driver Gaze Zone Estimation using Convolutional Neural Networks," IEEE Intelligent Vehicles Symposium, 2017] http://cvrr.ucsd.edu/publications/2017/IV2017-VoraTrivedi-OnGeneralizingGazeZone.pdf
-[Driver Gaze Zone Estimation using Convolutional Neural Networks: A General Framework and Ablative Analysis," IEEE Transactions on Intelligent Vehicles, 2018] http://cvrr.ucsd.edu/publications/2018/sourabh_gaze_zone.pdf
+[On Generalizing Driver Gaze Zone Estimation using Convolutional Neural Networks," IEEE Intelligent Vehicles Symposium, 2017] (http://cvrr.ucsd.edu/publications/2017/IV2017-VoraTrivedi-OnGeneralizingGazeZone.pdf)
+[Driver Gaze Zone Estimation using Convolutional Neural Networks: A General Framework and Ablative Analysis," IEEE Transactions on Intelligent Vehicles, 2018] (http://cvrr.ucsd.edu/publications/2018/sourabh_gaze_zone.pdf)
