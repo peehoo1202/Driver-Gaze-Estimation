@@ -25,7 +25,7 @@ parser.add_argument('--version', type=str, default=None, help='which version of 
 parser.add_argument('--output-dir', type=str, default=None, help='output directory for model and logs')
 parser.add_argument('--snapshot', type=str, default=None, help='path to pre-trained model snapshot')
 parser.add_argument('--batch-size', type=int, default=32, metavar='N', help='batch size for training')
-parser.add_argument('--epochs', type=int, default=10, metavar='N', help='number of epochs to train for')
+parser.add_argument('--epochs', type=int, default=40, metavar='N', help='number of epochs to train for')
 parser.add_argument('--learning-rate', type=float, default=4e-4, metavar='LR', help='learning rate')
 parser.add_argument('--weight-decay', type=float, default=0.0005, metavar='WD', help='weight decay')
 parser.add_argument('--log-schedule', type=int, default=10, metavar='N', help='number of iterations to print/save log after')
