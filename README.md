@@ -1,5 +1,5 @@
 # Driver-Gaze-Estimation
-Driver Gaze estimation using Convolutional Neural Networks.
+Driver Gaze estimation using Convolutional Neural Networks (in python).
 # Steps
 1. Create a google-colab notebook.
 2. Clone this repository
